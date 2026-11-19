@@ -1,6 +1,6 @@
 package InventoryManagementSystemZepto.Entity;
 
-class User {
+public class User {
     public String name;
     public double x, y;
     private Cart cart;  // User owns a cart
@@ -15,5 +15,6 @@ class User {
     public Cart getCart() {
         return cart;
     }
+
 
 }

@@ -10,7 +10,7 @@ import java.util.List;
 public class DarkStoreManager {
     private static DarkStoreManager instance;
     List<DarkStore> darkStoreList = new ArrayList<DarkStore>();
-    public DarkStoreManager getInstance(){
+    public static DarkStoreManager getInstance(){
         if(instance == null){
             return instance =  new DarkStoreManager();
         }

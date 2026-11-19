@@ -1,6 +1,6 @@
 package InventoryManagementSystemZepto.Entity;
 
-class DeliveryPartner {
+public class DeliveryPartner {
     public String name;
     public DeliveryPartner(String n) {
         name = n;

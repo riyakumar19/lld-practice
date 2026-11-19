@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Order {
     private static int nextId = 1;
-    int orderId;
+    public int orderId;
     User user;
     public List<Pair<Product,Integer>> items = new ArrayList<>();
     public List<DeliveryPartner> partners = new ArrayList<>();
@@ -15,5 +15,10 @@ public class Order {
         user    = u;
         totalAmount = 0.0;
     }
+
+    public void setTotalAmount(double amt){
+        this.totalAmount = amt;
+    }
+
 
 }
